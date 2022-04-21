@@ -3,4 +3,4 @@
 - Eslint + Airbnb config
 - dotenv file configuration
 - storybook + vue2 + tailwind sync
-- vuex + axios
+- vuex + axios + repositories
