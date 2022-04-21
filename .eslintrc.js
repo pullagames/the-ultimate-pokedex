@@ -17,5 +17,6 @@ module.exports = {
     'no-console': 'off',
     'no-debugger': 'off',
     'import/no-unresolved': 'off',
+    'import/extensions': 'off',
   },
 };
