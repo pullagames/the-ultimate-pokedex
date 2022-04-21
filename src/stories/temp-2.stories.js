@@ -1,9 +1,8 @@
-/* eslint-disable import/no-extraneous-dependencies */
 import '@/assets/css/tailwind.css';
 import MyButton from '../components/MyButton.vue';
 
 export default {
-  title: 'Button',
+  title: 'Design System/Organisms/Button',
 };
 
 export const withText = () => ({
