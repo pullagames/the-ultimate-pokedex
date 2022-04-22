@@ -1,6 +1,9 @@
 <template>
-  <div id="app">
-    <responsive-wrapper>
+  <div
+    id="app"
+    class=""
+  >
+    <responsive-wrapper :full-screen="$route.name === 'auth' ? true : false">
       <template #content>
         <router-view />
       </template>

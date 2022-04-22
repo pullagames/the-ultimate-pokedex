@@ -18,5 +18,7 @@ module.exports = {
     'no-debugger': 'off',
     'import/no-unresolved': 'off',
     'import/extensions': 'off',
+    'label-has-for': 'off',
+    'vuejs-accessibility/form-control-has-label': 'off',
   },
 };
