@@ -1,13 +1,19 @@
 <template>
   <div id="app">
-    <nav>
-      <router-link to="/">
-        Home
-      </router-link> |
-      <router-link to="/about">
-        About
-      </router-link>
-    </nav>
-    <router-view />
+    <responsive-wrapper>
+      <template #content>
+        <router-view />
+      </template>
+    </responsive-wrapper>
   </div>
 </template>
+
+<script>
+import ResponsiveWrapper from '@/components/core/ResponsiveWrapper.vue';
+
+export default {
+  components: {
+    ResponsiveWrapper,
+  },
+};
+</script>
