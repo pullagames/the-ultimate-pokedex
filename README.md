@@ -1,7 +1,8 @@
-# the-ultimate-pokedex
+#  the-ultimate-pokedex 🐛
 
-- Eslint + Airbnb config
-- dotenv file configuration
-- storybook/atomic design + vue2 + tailwindcss sync
-- vuex + axios + repositories
-- vue router
+- 🚨 `Linter: ` Eslint /w airbnb config.
+- 🔧 `Config: ` Dotenv file.
+- 💄 `Design System: ` Storybook /w atomic design pattern & tailwindcss.
+- 👽️ `API: ` Vuex /w axios & repository pattern.
+- 🚚 `Router: ` Vue router.
+- ⚡️ `Animations: ` Animejs.
