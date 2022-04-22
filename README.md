@@ -10,3 +10,4 @@
 - 🚚 `Router: ` Vue router.
 - ⚡️ `Animations: ` Animejs.
 - 🌙 `Themes: ` Dark & light mode (we all know the eyes burning at night).
+- 📱 `Responsive Design: ` Fully responsive app.
