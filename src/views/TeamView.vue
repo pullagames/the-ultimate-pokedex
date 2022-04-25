@@ -1,6 +1,6 @@
 <template>
-  <div class="home">
-    home
+  <div class="team">
+    team
     <!-- <div v-if="me && me.email">
       {{ me.email }}
     </div>
@@ -14,7 +14,7 @@
 <script>
 
 export default {
-  name: 'HomeView',
+  name: 'TeamView',
   components: {
   },
   mounted() {
