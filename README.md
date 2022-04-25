@@ -1,5 +1,10 @@
 #  the-ultimate-pokedex 🐛
 
+### Changelog
+
+25/04/2022:
+Auth view, Access/refresh token system, register/login, reusable component & storybook integration, form validation, fully responsive, light/dark theme.
+
 ### Features
 
 - 🚨 `Linter: ` Eslint /w airbnb config.
@@ -11,3 +16,4 @@
 - ⚡️ `Animations: ` Animejs.
 - 🌙 `Themes: ` Dark & light mode (we all know the eyes burning at night).
 - 📱 `Responsive Design: ` Fully responsive app.
+- ✅ `Form validation: ` Implemented.
