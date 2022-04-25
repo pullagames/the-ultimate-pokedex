@@ -20,5 +20,11 @@ module.exports = {
     'import/extensions': 'off',
     'label-has-for': 'off',
     'vuejs-accessibility/form-control-has-label': 'off',
+    'no-unused-vars': 'off',
+    'vue/max-attributes-per-line': 'off',
+    'max-len': 'off',
+    'no-nested-ternary': 'off',
+    'no-param-reassign': 'off',
+    'vuejs-accessibility/click-events-have-key-events': 'off',
   },
 };

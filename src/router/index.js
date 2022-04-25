@@ -1,5 +1,6 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
+import AuthView from '../views/AuthView.vue';
 import HomeView from '../views/HomeView.vue';
 
 Vue.use(VueRouter);
@@ -18,7 +19,7 @@ const routes = [
   {
     path: '/auth',
     name: 'auth',
-    component: () => import('@/views/AuthView.vue'),
+    component: AuthView,
   },
 ];
 

@@ -1,13 +1,13 @@
 <template>
   <div
-    class=" bg-gray-100  dark:bg-gray-800"
-    :class="fullScreen ? 'h-screen' : ''"
+    class=" bg-gray-100  dark:bg-gray-900 dark:text-gray-200"
+    :class="fullScreen ? 'h-screen auth-bg' : ''"
   >
     <div
-      class="lg:container mx-auto p-4"
-      :class="fullScreen ? 'lg:h-full lg:w-full lg:flex lg:items-center lg:justify-center' : ''"
+      class="lg:container mx-auto lg:p-4"
+      :class="fullScreen ? 'h-full lg:w-full lg:flex lg:items-center lg:justify-center' : ''"
     >
-      <slot name="content" />
+      <slot />
     </div>
   </div>
 </template>
@@ -23,7 +23,3 @@ export default {
   },
 };
 </script>
-
-<style>
-
-</style>
