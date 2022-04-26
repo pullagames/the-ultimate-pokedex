@@ -6,3 +6,34 @@
 .pattern-1 {
   background-image: url('/src/assets/css/pattern.png');
 }
+
+.pixelated {
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: crisp-edges;
+}
+
+body,
+#app {
+  @apply h-screen
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity .15s;
+}
+
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
+}
+
+.bounce-enter-active,
+.bounce-leave-active {
+  transition: transform .15s;
+}
+
+.bounce-enter,
+.bounce-leave-to {
+  transform: scale(.0);
+}

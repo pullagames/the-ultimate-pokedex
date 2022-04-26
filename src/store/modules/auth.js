@@ -39,9 +39,7 @@ export default {
       }).then(() => {
         router.push({ name: 'home' }).catch((err) => {});
       }).catch((err) => {
-        if (err.response.data.detail === 'No active account found with the given credentials') {
-          commit('SET_LOGIN_ERROR', 'Il n\'existe pas de compte avec ces données.');
-        }
+        commit('SET_LOGIN_ERROR', 'Il n\'existe pas de compte avec ces données.');
       });
     },
     async logout({ commit }) {
